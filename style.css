@@ -16,6 +16,9 @@ header, nav, aside, footer, section, article p {
   color: #777;
 }
 
+header {
+  color:red;
+}
 article {
   background-color: #777;
   color: #ebebeb;
