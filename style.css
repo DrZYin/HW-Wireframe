@@ -1,0 +1,62 @@
+body * {
+  border: 1px hidden black
+}
+
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: #777;
+  width: 960px;
+  text-align: center;
+  margin: auto;
+}
+/*=========colors==========*/
+header, nav, aside, footer, section, article p {
+  background-color: #ebebeb;
+  color: #777;
+}
+
+article {
+  background-color: #777;
+  color: #ebebeb;
+}
+/*=========paddings========*/
+header, nav, footer, section h1, aside h1 {
+  padding: 2rem
+}
+
+section, article, aside {
+  padding: 0.8rem 0.8rem;
+}
+
+article p {
+  padding: 1rem 1rem;
+}
+/*=========margins========*/
+header, nav, footer, main, section, aside, article p {
+  margin: 0.6rem;
+}
+
+section {
+  margin-left: 0
+}
+
+aside {
+  margin-right: 0
+}
+
+/*=========floats========*/
+section, aside {
+  float: left;
+}
+
+section {
+  width: 495px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
